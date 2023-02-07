@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* Lisätään html elementti flex*/
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.parent section, .parent aside {
+    flex-basis: 0px;
+}
+
+/* Muotoillaan parent-elementin lapset*/
+.parent > * {
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+p {
+    padding: 1rem;
+}
+
+header {
+    background-color: #df1428;
+    color: white;
+}
+
+nav {
+    background-color: #f38f2d;
+}
+
+section {
+    background-color: #ffc000;
+    padding-block-end: 1rem;
+}
+
+section article {
+    background-color: #7ac141;
+    margin-block-start: 1rem;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+}
+
+aside {
+    background-color: #026fb4;
+}
+
+footer {
+    background-color: #932b8e;
+    clear: both;
+}

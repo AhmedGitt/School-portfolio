@@ -1,0 +1,208 @@
+body {
+    font-size: 62.5%;
+    background-color: #f8f0df;
+}
+
+.special {
+ background-color: #697f87;
+ font-size: 1rem;
+ background-image: url(./images/special-bg.png);
+ background-repeat: repeat-x;
+ background-position: bottom;
+ padding-bottom: 1rem;
+}
+
+.whitetxt {
+    color: white;
+}
+
+.special img {
+    background-color: #697f87;
+    margin-bottom: -0.5rem;
+}
+
+.wrapper img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.logon-tekstit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+}
+
+.line-1 {
+    height: 1px;
+    background: black;
+    margin-inline-end: 1.5rem;
+    margin-inline-start: 1.5rem;
+  }
+
+  .lorem-teksti1 {
+    font-size: 1rem;
+    margin: 1rem;
+    font-family: serif;
+  }
+
+  .lorem-teksti2 {
+    font-size: 1rem;
+    margin: 1rem;
+    font-family: serif;
+  }
+
+  figure img {
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    width: -webkit-fill-available;
+  }
+
+  .pretz-teksti {
+    text-align: center;
+    margin: 2rem;
+    background-color: #f8ebcb;
+    padding: 1rem;
+    flex: 0 0 20%;
+    box-shadow: 0 0 30px #424242;
+    padding: 1em;
+    border-radius: 1rem;
+    font-family: serif;
+  }
+
+  .copyright {
+    text-align: center;
+    font-size: 0.4rem;
+  }
+
+  .copyright-logo {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.7rem;
+    opacity: 0.5;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .our-pretzels {
+    display: none;
+  }
+
+  .viimesetlinkit {
+    display: none;
+  }
+
+  .line-2 {
+    display: none;
+  }
+
+  .thelast {
+    display: none;
+  }
+
+  .salt {
+    display: none;
+  }
+
+  /* tabletin säännöt */
+
+  @media only screen and (min-width: 426px) {
+    .wrapper img {
+        margin-left: 1rem;
+    }
+    .logon-tekstit {
+    margin-inline-start: 2rem;
+    padding-bottom: 1rem;
+    margin-top: -3.5rem;
+    margin-bottom: 2rem;
+    }
+
+    .copyright-logo{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.7rem;
+    opacity: 0.5;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+        opacity: 0.5;
+    }
+  }
+
+  /* desktopin säännöt */
+
+  @media only screen and (min-width: 769px) {
+    figure img {
+      width: 60%;
+    }
+    .pretz-teksti {
+    margin-left: 60rem;
+    font-size: large;
+    margin-top: -50rem;;
+    }
+
+    .lorem-teksti1 {
+        width: 50%;
+    }
+    .lorem-teksti2 {
+        width: 50%;
+    }
+    .copyright-logo {
+        margin-top: 1rem;
+    }
+    .copyright {
+        margin-top: 32rem;
+    }
+    .hidden {
+        display: block;
+        font-size: 0.7rem;
+    }
+
+    .our-pretzels {
+        display: block;
+        font-size: 1rem;
+        margin-left: 61rem;
+    }
+  
+    .viimesetlinkit {
+      display: block;
+      margin-left: 50rem;
+      margin-top: 0.5rem;
+      display: flex;
+    justify-content: space-evenly;
+    }
+
+    .line-2 {
+      height: 1px;
+    background: black;
+    margin-inline-end: 2rem;
+    display: block;
+    margin-top: 1rem;
+    margin-inline-start: 60rem;
+    }
+
+    .thelast {
+      display: block;
+      width: 30%;
+    float: right;
+    margin-right: 2.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    }
+
+    .salt {
+      display: block;
+      margin-left: 61rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    }
+  }
